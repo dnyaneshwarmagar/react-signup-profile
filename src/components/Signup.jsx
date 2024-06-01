@@ -52,11 +52,8 @@ const Signup = () => {
       token: accessToken,
     };
     localStorage.setItem("user", JSON.stringify(user));
-    setTimeout(() => {
-      alert("Signup successful, you will be redirected to Profile Page Now!");
-      navigate("/profile");
-    }, 1000);
 
+      navigate("/profile");
     console.log("htitt");
   }
 
